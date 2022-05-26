@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Student</title>
+</head>
+<body>
+    <form action="/students" method="POST">
+        <div>
+            <label for="name">Name : </label>
+            <input type="text" id="name" name="student[name]">
+        </div>
+        <div>
+            <label for="class">class : </label>
+            <input type="text" id="class" name="student[class]">
+        </div>
+        <div>
+            <label for="roll">Roll : </label>
+            <input type="text" id="roll" name="student[roll]">
+        </div>
+        <div>
+            <label for="section">section : </label>
+            <input type="text" id="section" name="student[section]">
+        </div>
+        <button>Add Student</button>
+    </form>
+    <a href="/students/">Back to All Students</a>
+</body>
+</html>
